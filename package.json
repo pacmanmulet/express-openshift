@@ -1,0 +1,29 @@
+{
+  "name": "express-openshift",
+  "version": "1.0.0",
+  "description": "node en openshift",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "dev": "nodemon --ignore node_modules/ server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacmanmulet/express-openshift.git"
+  },
+  "keywords": [
+    "openshift"
+  ],
+  "author": "David",
+  "license": ""
+}
